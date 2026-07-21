@@ -4,9 +4,11 @@ A single-file, self-contained HTML portfolio for graphic/motion designer **Basha
 
 ## Live file
 
-`bashar-portfolio.html` — ~79 MB, single file, no dependencies.
+`bashar-portfolio.html` — ~48 MB, single file, no dependencies.
 
 Just open it in any browser, or upload it to any static host (GitHub Pages, Netlify, etc.) as `index.html`.
+
+> **Note:** images are stored once, in JS data arrays, and copied into the visible thumbnails at page load (a tiny script fills in each `<img>` tag right after the page loads) — this keeps the file about 40% smaller than storing every image twice.
 
 ## Structure
 
@@ -45,4 +47,4 @@ The page is a single scrolling site with the following sections, in order:
 
 ## Credits
 
-Design and development: **Bashar Reda**# Bashar-portfolio-
+Design and development: **Bashar Reda**
